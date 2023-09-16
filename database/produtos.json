@@ -1,0 +1,68 @@
+{
+    "oculos": [
+        {
+            "modelo": "Wayfarer",
+            "marca": "Ray-Ban",
+            "cor": "Preto",
+            "material": "Acetato",
+            "preco": 150.00,
+            "img": "./img/oculos-1.jpg"
+        },
+        {
+            "modelo": "Aviador",
+            "marca": "Oakley",
+            "cor": "Prata",
+            "material": "Metal",
+            "preco": 120.00,
+            "img": "./img/oculos-2.jpg"
+        },
+        {
+            "modelo": "Cat-Eye",
+            "marca": "Prada",
+            "cor": "Rosa",
+            "material": "Plástico",
+            "preco": 220.00,
+            "img": "./img/oculos-3.jpg"
+        },
+        {
+            "modelo": "Clubmaster",
+            "marca": "Ray-Ban",
+            "cor": "Marrom",
+            "material": "Acetato",
+            "preco": 170.00,
+            "img": "./img/oculos-4.jpg"
+        },
+        {
+            "modelo": "Wayfarer II",
+            "marca": "Ray-Ban",
+            "cor": "Tartaruga",
+            "material": "Acetato",
+            "preco": 160.00,
+            "img": "./img/oculos-5.jpg"
+        },
+        {
+            "modelo": "Holbrook",
+            "marca": "Oakley",
+            "cor": "Preto",
+            "material": "Plástico",
+            "preco": 130.00,
+            "img": "./img/oculos-6.jpg"
+        },
+        {
+            "modelo": "Round",
+            "marca": "Gucci",
+            "cor": "Dourado",
+            "material": "Metal",
+            "preco": 250.00,
+            "img": "./img/oculos-7.jpg"
+        },
+        {
+            "modelo": "Oval",
+            "marca": "Versace",
+            "cor": "Vermelho",
+            "material": "Acetato",
+            "preco": 200.00,
+            "img": "./img/oculos-8.jpg"
+        }
+    ]
+}
