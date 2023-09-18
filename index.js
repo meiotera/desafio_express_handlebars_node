@@ -23,7 +23,7 @@ app.use('/', contatoRouter, detalhesRouter);
 app.get('/', async (req, res) => {
     try {
         const result = await pesquisa();             
-        res.render('home.handlebars', { result })
+        res.render('home', { result })
     } catch (err) {
         console.log(err)
     }
