@@ -6,7 +6,12 @@
             "cor": "Preto",
             "material": "Acetato",
             "preco": 150.00,
-            "img": "./img/oculos-1.jpg"
+            "img": "./img/oculos-1.jpg",
+            "comentarios": [
+                "Adorei o estilo clássico desses óculos!",
+                "Eles se encaixam perfeitamente e são muito confortáveis.",
+                "O preço é um pouco alto, mas vale a pena."
+            ]
         },
         {
             "modelo": "Aviador",
@@ -14,7 +19,12 @@
             "cor": "Prata",
             "material": "Metal",
             "preco": 120.00,
-            "img": "./img/oculos-2.jpg"
+            "img": "./img/oculos-2.jpg",
+            "comentarios": [
+                "Ótima escolha para um visual elegante!",
+                "São leves e duráveis, perfeitos para o uso diário.",
+                "O preço é acessível para a qualidade que você recebe."
+            ]
         },
         {
             "modelo": "Cat-Eye",
@@ -22,7 +32,12 @@
             "cor": "Rosa",
             "material": "Plástico",
             "preco": 220.00,
-            "img": "./img/oculos-3.jpg"
+            "img": "./img/oculos-3.jpg",
+            "comentarios": [
+                "Esses óculos são um acessório de moda incrível!",
+                "A cor rosa é deslumbrante e chama a atenção.",
+                "Eles são um pouco caros, mas definitivamente fazem uma declaração."
+            ]
         },
         {
             "modelo": "Clubmaster",
@@ -30,7 +45,12 @@
             "cor": "Marrom",
             "material": "Acetato",
             "preco": 170.00,
-            "img": "./img/oculos-4.jpg"
+            "img": "./img/oculos-4.jpg",
+            "comentarios": [
+                "Estilo clássico com um toque moderno.",
+                "A cor marrom combina com qualquer roupa.",
+                "Preço justo para óculos de qualidade."
+            ]
         },
         {
             "modelo": "Wayfarer II",
@@ -38,7 +58,12 @@
             "cor": "Tartaruga",
             "material": "Acetato",
             "preco": 160.00,
-            "img": "./img/oculos-5.jpg"
+            "img": "./img/oculos-5.jpg",
+            "comentarios": [
+                "Essa versão atualizada dos Wayfarers é incrível!",
+                "A estampa de tartaruga adiciona um toque de estilo único.",
+                "Preço razoável para óculos tão estilosos."
+            ]
         },
         {
             "modelo": "Holbrook",
@@ -46,7 +71,12 @@
             "cor": "Preto",
             "material": "Plástico",
             "preco": 130.00,
-            "img": "./img/oculos-6.jpg"
+            "img": "./img/oculos-6.jpg",
+            "comentarios": [
+                "Óculos esportivos de alta qualidade.",
+                "A cor preta é discreta e versátil.",
+                "Um ótimo custo-benefício para atividades ao ar livre."
+            ]
         },
         {
             "modelo": "Round",
@@ -54,7 +84,12 @@
             "cor": "Dourado",
             "material": "Metal",
             "preco": 250.00,
-            "img": "./img/oculos-7.jpg"
+            "img": "./img/oculos-7.jpg",
+            "comentarios": [
+                "Símbolo de luxo e elegância!",
+                "A cor dourada destaca-se em qualquer ocasião.",
+                "Um investimento que vale a pena para quem busca estilo premium."
+            ]
         },
         {
             "modelo": "Oval",
@@ -62,7 +97,12 @@
             "cor": "Vermelho",
             "material": "Acetato",
             "preco": 200.00,
-            "img": "./img/oculos-8.jpg"
+            "img": "./img/oculos-8.jpg",
+            "comentarios": [
+                "Adoro a cor vermelha vibrante desses óculos!",
+                "Eles são extremamente elegantes e atraem muita atenção.",
+                "Preço um pouco alto, mas justificado pela qualidade e estilo."
+            ]
         }
     ]
 }
