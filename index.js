@@ -4,17 +4,18 @@ const path = require('path')
 const app = express();
 const port = process.env.PORT || 3000;
 const contatoRouter = require('./routes/contato');
+const detalhesRouter = require('./routes/detalhes')
 const fs = require('fs');
 const hbs = exphbs.create({
     partialsDir: ['views/partials']
 });
 
-
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'))
 app.engine('handlebars', hbs.engine);
 app.set('veiw engine', 'handlebars');
 
-app.use('/', contatoRouter);
+app.use('/', contatoRouter, detalhesRouter);
 
 
 
@@ -27,6 +28,7 @@ app.get('/', (req, res) => {
         oculos.forEach((oculo, index) => {
             produtos.push(
                 {
+                    _id: (index + 1),
                     modelo: oculo.modelo,
                     marca: oculo.marca,
                     cor: oculo.cor,
