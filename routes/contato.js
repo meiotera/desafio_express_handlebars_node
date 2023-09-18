@@ -7,7 +7,7 @@ router.get('/contato', (req, res) => {
 
     const links = ['Instagram', 'FaceBook', 'Github']
 
-    res.render(`${caminho}/contato.handlebars`, { links });
+    res.render(`${caminho}/contato`, { links });
 })
 
 

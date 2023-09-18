@@ -13,7 +13,7 @@ router.get(`/detalhes/?`, async (req, res) => {
         const result = await pesquisa(id);
         const comentario = result[0].comentarios;
         
-        res.render(`${caminho}/detalhes.handlebars`, { result, comentario })
+        res.render(`${caminho}/detalhes`, { result, comentario })
 
     } catch (error) {
         console.log(error)
