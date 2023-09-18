@@ -1,6 +1,7 @@
 <img src="{{this.img}}" alt="">
 <h2>Modelo: {{this.modelo}}</h2>
-<p>Marca: {{this.marca}}</p>
+{{!-- <p>Marca: {{this.marca}}</p>
 <p>Cor: {{this.cor}}</p>
 <p>Tipo de material: {{this.material}}</p>
-<p>R$ {{this.preco}}</p>
+<p>R$ {{this.preco}}</p> --}}
+<p><a class="btnLink" href="/detalhes/?id={{this._id}}&modelo={{this.modelo}}&marca={{this.marca}}&cor={{this.cor}}&material={{this.material}}&preco={{this.preco}}">Ver detalhes</a></p>
