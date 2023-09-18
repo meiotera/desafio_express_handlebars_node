@@ -14,7 +14,7 @@ const hbs = exphbs.create({
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'))
 app.engine('handlebars', hbs.engine);
-app.set('veiw engine', 'handlebars');
+app.set('view engine', 'handlebars');
 
 app.use('/', contatoRouter, detalhesRouter);
 
