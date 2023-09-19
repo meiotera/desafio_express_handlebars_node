@@ -4,7 +4,8 @@ const exphbs = require('express-handlebars');
 const app = express();
 const port = process.env.PORT || 3000;
 const contatoRouter = require('./routes/contato');
-const detalhesRouter = require('./routes/detalhes')
+const detalhesRouter = require('./routes/detalhes');
+const sobreRouter = require('./routes/sobre')
 // const fs = require('fs');
 const pesquisa = require('./pesquisa');
 const hbs = exphbs.create({
@@ -16,7 +17,7 @@ app.use(express.static('public'))
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-app.use('/', contatoRouter, detalhesRouter);
+app.use('/', contatoRouter, detalhesRouter, sobreRouter);
 
 
 
