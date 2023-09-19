@@ -19,8 +19,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;    
-    height: 100px;    
+    flex-direction: column;
+    height: 100px;
     padding: 2em;
     margin-bottom: 2em;
 }
@@ -29,34 +29,41 @@ h2 {
     font-size: 4em;
 }
 
-.menu {    
+.menu {
     text-align: center;
     margin: 1em;
     background-color: black;
     padding: 1em;
 }
-.menu a{      
+
+.menu a {
     text-decoration: none;
-    padding: 5px;    
+    padding: 5px;
     text-transform: uppercase;
     font-size: 1em;
     color: #888888;
     border-radius: 10px;
     font-weight: bold;
+    transition: .2s ease-in-out;
+}
+
+.menu a:hover {
+    color: #c5c3c3;
 }
 
 .container-cards {
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .card {
     width: 450px;
     background-color: rgb(141, 140, 140);
     padding: 2em;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #888888;
-    margin: 1em;    
+    margin: 1em;
     transition: .2s ease-in-out;
     text-align: center;
 }
@@ -68,13 +75,13 @@ h2 {
 
 .card .btnLink {
     background-color: rgba(212, 99, 34, 0.897);
-    
+
     /* background-color: rgb(17, 17, 17); */
     padding: .5em;
     /* border: 2px solid rgb(212, 45, 33); */
-    border-radius: 5px; 
+    border-radius: 5px;
     box-shadow: 2px 3px 3px rgba(17, 17, 17, 0.753);
-    transition: .2s ease-in-out;   
+    transition: .2s ease-in-out;
 }
 
 .card .btnLink:hover {
@@ -84,12 +91,12 @@ h2 {
 .card a {
     text-decoration: none;
     color: white;
-    margin-top: 20px;  
-    font-weight: bold;  
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .card h2 {
-    font-size: 2em;    
+    font-size: 2em;
     text-shadow: 5px 5px 10px #161616;
     margin-bottom: 30px;
 }
@@ -97,4 +104,76 @@ h2 {
 .card img {
     width: 100%;
     border-radius: 10px;
+}
+
+.container-comentarios {
+    margin-top: 24px;
+}
+
+.container-comentarios h3 {
+    color: rgb(230, 156, 18);
+    font-size: 1.4em;
+}
+
+.container-comentarios p {
+    text-align: start;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.container-contato {
+    margin-top: 24px;
+}
+
+.container-contato ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-contato ul li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container-contato ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-sobre h2 {
+    font-size: 2em;
+    color: rgb(230, 156, 18);
+}
+
+.container-sobre div {
+    margin-top: 24px;
+}
+
+.container-sobre p {
+    padding: 2em;
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+footer {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #161616;
+    margin-top: 24px;
+    color: white;
+}
+
+footer a {
+    color: rgb(230, 156, 18);
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+footer a:hover {
+    color:rgba(231, 166, 46, 0.76);
 }
