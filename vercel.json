@@ -15,9 +15,7 @@
         "src": "api/**/*.js",
         "use": "@vercel/node"
       }
-    ],
-    "env": {
-      "PORT": 3000
-    }
+    ]
+
   }
   
